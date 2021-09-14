@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Luckiest Guy", cursive;
+}
+.bg {
+  background-image: url("sea.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-right: 30px;
+}
+.lg-cont {
+  flex-direction: row;
+  justify-content: end;
+  width: 60%;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: 0%;
+}
+.display-1 {
+  color: aliceblue;
+  text-align: right;
+}
+.img-cont {
+  margin-top: 113px;
+}
+.logo {
+  width: 100%;
+}
+.h4 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+.h3 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin: 10px;
+}
+.subtitle {
+  color: rgb(255, 255, 255);
+  font-family: "Luckiest Guy", cursive;
+  font-size: 36pt;
+  text-align: center;
+  margin-right: 50px;
+}
+.txtqoute {
+  margin-left: 145px;
+  font-family: "Poiret One", cursive;
+}
+.second-con {
+  margin-top: 25px;
+  width: 30%;
+  margin-left: 265px;
+}
+.shake {
+  width: 60%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.del {
+  width: 55%;
+  margin-top: 50px;
+  margin-left: 170px;
+}
