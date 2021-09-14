@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator v2.0</title>
+    <script src="https://kit.fontawesome.com/85d1245096.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h1 class="h1">Simple Calculator </h1>
+            <img src="calculator.png">
+        </div>
+        <div>
+               <div class="mb-3">
+                <label for="firstNumber" class="form-label">First Number</label>
+                <input type="text" class="form-control" id="firstNumber">
+              </div>
+              <div class="mb-3">
+                <label for="secondNumber" class="form-label">Second Number</label>
+                <input type="text" class="form-control" id="secondNumber">
+              </div> 
+
+              <div>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary" id="add" onclick="sum()">Addition +</button>
+                    <button type="button" class="btn btn-outline-primary" id="min" onclick="sub()">Subtraction -</button>
+                    <button type="button" class="btn btn-outline-primary" id="mult" onclick="mult()">Multiplication *</button>
+                    <button type="button" class="btn btn-outline-primary" id="div" onclick="div()">Division /</button>
+                  </div>
+            </div>
+            <div class="result" style="margin-top:12px">
+            <h3 class="h3" id="result"></h3>
+          </div>
+          <button type="button" class="btn btn-dark" id="toggle" onclick="darkMode()">Dark/Light</button>
+        </div>  
+</body>
+</html>
